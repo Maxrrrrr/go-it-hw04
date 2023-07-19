@@ -132,11 +132,8 @@ a {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.advantages-list {
-
-}
-.advantages-item {
-}
+.advantages-list {}
+.advantages-item {}
 
 .advantages-title {
                     font-weight: 500;
@@ -222,7 +219,7 @@ a {
         color: #F4F4FD;
 }
 
-.portfolio-but {
+.portfolio-btn {
         font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -234,11 +231,26 @@ a {
         cursor: pointer;
 }
 
-.portfolio-but:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
     color: var(--bg-white);
     background-color: #404BBF;
 }
-.portfolio-but:focus {
-    color: var(--bg-white);
-    background-color: #404BBF;
+.portfolio-text {
+    color: var(--main-dark-accent);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+}
+.portfolio-main-item {}
+.portfolio-main {
+    list-style: none;
+}
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-dark-cl);
 }
