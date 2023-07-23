@@ -215,18 +215,28 @@ a {
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
-
-.portfolio-btn {
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background-color: var(--bg-team);
-        cursor: pointer;
-}
+.portfolio-menu {
+    justify-content: center;
+    margin-bottom: 72px; 
+    }
+.portfolio-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--text-footer-color);
+    border: 1px solid var(--border-portfolio-color);
+    color: var(--logo-color);
+    cursor: pointer;
+    border-radius: 4px;
+    height: 48px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    align-items: center; 
+  }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -240,7 +250,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
 }
-.portfolio-main-item,
+.portfolio-project-menu {
+    row-gap: 48px;   
+}
+.portfolio-main-item
 .portfolio-main {
     list-style: none;
 }
