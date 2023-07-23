@@ -132,9 +132,6 @@ a {
     text-transform: capitalize;
     color: #2E2F42;
 }
-.advantages-list {}
-.advantages-item {}
-
 .advantages-title {
                     font-weight: 500;
                     font-size: 20px;
@@ -243,7 +240,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 
 }
-.portfolio-main-item {}
+.portfolio-main-item,
 .portfolio-main {
     list-style: none;
 }
