@@ -92,15 +92,15 @@ button {
 }
 
 .hero-title {
-color: #FFF;
-width: 496px;
-    text-align: center;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-    margin: 188px 472px 48px 472px ;
+    color: #FFF;
+        width: 496px;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+        margin: 120px auto;
+        padding-top: 120px;
 }
 
 .hero-btn {
