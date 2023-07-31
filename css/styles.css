@@ -20,7 +20,7 @@ ol {
 .link,
 a {
     text-decoration: none;
-    color: var(--bg-black);
+    color:black;
 }
 
 .btn,
@@ -40,12 +40,9 @@ button {
     color: #4D5AE5;
 }
 
-.studio {
-    color: var(--bg-black);
-}
-
-.studio-down {
-    color: var(--bg-team);
+.studio,
+.studio-down{
+    color: black;
 }
 
 .header-item {
@@ -75,7 +72,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-text);
 }
 
 .adress-link:hover,
@@ -115,7 +111,8 @@ button {
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
-    margin: 48px 635px 188px 636px;
+    margin: 48px 636px;
+ 
 }
 
 .hero-btn:hover,
@@ -131,18 +128,6 @@ button {
     text-align: center;
     color: #FFFFFF;
 }
-
-.advantages-1title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
@@ -152,11 +137,13 @@ button {
 }
 
 .advantages-desc {
-    font-weight: 400;
+color: var(--slate, #434455);
+    font-family: Roboto;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .doing-list{
@@ -173,7 +160,6 @@ button {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-
 }
 .doing-item{
     background-color: #FFFFFF;
@@ -182,12 +168,10 @@ button {
 
 
 .team {
-    margin-top: 120px;
-    background-color: #F4F4FD;
-    width: 1440px;
+        background-color: #F4F4FD;
         height: 732px;
         flex-shrink: 0;
-
+        margin: 120px auto;
 }
 
 .team-title {
