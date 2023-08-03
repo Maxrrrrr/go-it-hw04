@@ -79,35 +79,38 @@ button {
 .adress-link:focus {
     color: #404BBF;
 }
-.hero {
+.hero-section {
     background-color: #2E2F42;
-    height: 600px;
-    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
     color: #FFF;
-        width: 496px;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
-        margin: 120px auto;
-        padding-top: 120px;
+  font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 .hero-btn {
-    font-weight: 500;
+font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
-    color: #FFFFFF;
-    background: #4D5AE5;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
     border-radius: 4px;
-    margin: 48px 636px;
+    margin-top: 48px;
+    margin-right: 495px;
+    margin-left: 495px;
+    display: block;
+    border: none;
+        color: #FFFFFF;
+            background: #4D5AE5;
+
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -140,19 +143,29 @@ color: #434455;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+.doing-section{
+                display: flex;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 120px;
+                padding-bottom: 120px;
+}
 .doing-list{
         display: flex;
             justify-content: center;
             gap: 24px;
 }
 .doing-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
+color: var #2E2F42;
     text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
     text-transform: capitalize;
-    color: #2E2F42;
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 .doing-item{
     background-color: #FFFFFF;
@@ -175,7 +188,7 @@ color: var #2E2F42;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    margin: 120px 0 72px 0;
+    margin-bottom: 72px;
 }
 .team-item {
     background-color: #FFFFFF;
@@ -186,6 +199,12 @@ color: var #2E2F42;
     display: flex;
     justify-content: center;
     gap: 24px;
+}
+.comando-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px
 }
 .team-name {
    font-weight: 500;
@@ -226,12 +245,18 @@ color: var #2E2F42;
     margin-bottom: 16px;
     margin-right: 0;
 }
-.container{
-        width: 1158px;
+.container {
             margin-right: auto;
             margin-left: auto;
             padding-right: 15px;
             padding-left: 15px;
+}
+.footer-container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .portfolio-menu {
     justify-content: center;
