@@ -203,12 +203,16 @@ color: #434455;
                 margin-right: auto;
                 padding-bottom: 120px;
 }
-.doing-list{
-        display: flex;
-            justify-content: center;
-            gap: 24px;
+.Row1{
+            margin-top: 72px;
+            padding-bottom: 48px;
+
 }
-.doing-title {
+.Row2 {
+        justify-content: center;
+        margin-bottom: 120px;
+}
+.portfolio-title {
 color: var #2E2F42;
     text-align: center;
     font-size: 36px;
