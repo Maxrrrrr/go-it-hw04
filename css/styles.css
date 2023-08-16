@@ -16,12 +16,12 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 24px;
+
     }
 ul{
         margin-top: 0;
         margin-bottom: 0;
-        padding-left: 0;
+        margin-left: 0;
 }
 .link{
         text-decoration: none;
@@ -88,13 +88,14 @@ font-family: Raleway;
 }
 .header-section {
     display: flex;
-    border-bottom: #E7E9FC;
+    color: #E7E9FC;
 }
 .header-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-right: 24px;
     color: black;
 }
 .header-link {
@@ -103,8 +104,7 @@ font-family: Raleway;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    margin: 24px 0;
     display: block;
 }
 .header-link:hover,
@@ -147,14 +147,13 @@ font-weight: 500;
     cursor: pointer;
     min-width: 169px;
     height: 56px;
-    border-radius: 4px;
     margin-top: 48px;
     margin-right: 495px;
     margin-left: 495px;
     display: block;
     border: none;
-        color: #FFFFFF;
-            background: #4D5AE5;
+    color: #FFFFFF;
+    background: #4D5AE5;
 
 }
 .hero-btn:hover,
@@ -192,7 +191,7 @@ width: 264px;
     color: #2E2F42;
 }
 .advantages-desc {
-color: #434455;
+    color: #434455;
     line-height: 24px;
     letter-spacing: 0.32px;
     margin: 0;
@@ -208,7 +207,7 @@ color: #434455;
 }
 .team-title
  {
-color: var #2E2F42;
+    color: var #2E2F42;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -222,13 +221,12 @@ color: var #2E2F42;
  {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-list
  {
     display: flex;
     justify-content: center;
-    gap: 24px;
+
 }
 
 .team-name
@@ -281,7 +279,6 @@ color: var #2E2F42;
 
 .portfolio-item {
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
 }
 .portfolio-container {
     padding-top: 32px;
@@ -289,8 +286,11 @@ color: var #2E2F42;
     padding-left: 16px;
     padding-right: 16px
 }
-.footer {
-    width: 1158px;
+.footer-container {
+     margin-right: auto;
+     margin-left: 156px;
+     padding-right: 15px;
+     padding-left: 15px;
 }
 .footer-section {
     background: #2E2F42;
@@ -310,11 +310,9 @@ color: var #2E2F42;
     max-width: 264px;
 }
 .footer-section .logo {
-    margin-bottom: 16px;
     margin-right: 0;
 }
 .container {
-            
             margin-right: auto;
             margin-left: auto;
             padding-right: 15px;
