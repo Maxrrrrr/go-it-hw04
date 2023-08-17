@@ -1,9 +1,4 @@
-:root {
-    --bg-white: #ffffff;
-    --bg-black: #2e2f42;
-    --bg-team: #f4f4fd;
-    --color-text: #434455
-}
+
 
 .body {
     font-family: "Roboto", sans-serif;
@@ -13,9 +8,6 @@
 
 .list{
         list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
 
     }
 ul{
@@ -35,7 +27,6 @@ ul{
         text-transform: uppercase;
         letter-spacing: 0.03em;
         text-decoration: none;
-        display: inline-block;
 }
 .link.logo{
     margin-right: 76px;
@@ -53,7 +44,6 @@ button {
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-    font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -61,7 +51,7 @@ button {
     color: #4D5AE5;
 }
 .studio{
-font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -75,19 +65,15 @@ font-family: Raleway;
     color: white;
 }
 .header {
-    display: flex;
-    align-items: baseline;
-    width: 1158px;
+    max-width: 1158px;
 }
 
 .header-nav{
-        display: flex;
-        align-items: baseline;
         margin-right: 332px;
-        align-items: center;
+
 }
 .header-section {
-    display: flex;
+    font-family: "Raleway", sans-serif;
     color: #E7E9FC;
 }
 .header-item {
@@ -95,7 +81,7 @@ font-family: Raleway;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 24px;
+    margin-right: 40px;
     color: black;
 }
 .header-link {
@@ -104,8 +90,6 @@ font-family: Raleway;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin: 24px 0;
-    display: block;
 }
 .header-link:hover,
 .header-link:focus {
@@ -127,9 +111,7 @@ font-family: Raleway;
 .hero-section {
     background-color: #2E2F42;
     text-align: center;
-    display: flex;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
 }
 .hero-title {
     color: #FFF;
@@ -146,11 +128,11 @@ font-weight: 500;
     letter-spacing: 0.04em;
     cursor: pointer;
     min-width: 169px;
-    height: 56px;
+    
     margin-top: 48px;
     margin-right: 495px;
     margin-left: 495px;
-    display: block;
+
     border: none;
     color: #FFFFFF;
     background: #4D5AE5;
@@ -168,19 +150,16 @@ font-weight: 500;
     text-align: center;
     color: #FFFFFF;
 }
-.section-advantages{
-padding: 120px 0;
-}
 .container-adventages{
-    width: 1158px;
+        max-width: 1158px;
         margin-right: auto;
         margin-left: auto;
-        padding-right: 15px;
-        padding-left: 15px;
+
 }
-.advantages-item{
-width: 264px;
+.advantages-item {
+    max-width: 264px;
 }
+
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
@@ -199,11 +178,8 @@ width: 264px;
 
 .team {
         background-color: #F4F4FD;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .team-title
  {
@@ -220,11 +196,10 @@ width: 264px;
 .team-item
  {
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px;
+
 }
 .team-list
  {
-    display: flex;
     justify-content: center;
 
 }
@@ -248,7 +223,7 @@ width: 264px;
 }
 .portfolio-Row1 {
     margin-top: 72px;
-    padding-bottom: 48px;
+
     justify-content: center;
 
 }
@@ -258,10 +233,9 @@ width: 264px;
     margin-bottom: 120px;
 }
 .portfolio-section {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 120px;
+ 
 }
 
 .portfolio-title {
@@ -280,26 +254,17 @@ width: 264px;
 .portfolio-item {
     background-color: #FFFFFF;
 }
-.portfolio-container {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px
-}
+
 .footer-container {
      margin-right: auto;
      margin-left: 156px;
-     padding-right: 15px;
-     padding-left: 15px;
+
 }
 .footer-section {
     background: #2E2F42;
-    display: flex;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 
 .footer-text {
@@ -315,6 +280,5 @@ width: 264px;
 .container {
             margin-right: auto;
             margin-left: auto;
-            padding-right: 15px;
-            padding-left: 15px;
+
 }
