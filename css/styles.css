@@ -47,8 +47,8 @@ a {
             letter-spacing: 0.54px;
             text-transform: uppercase;
 }
-.logo-Studio-link:hover,
-.logo-Studio-link:focus {
+.logo-web:hover,
+.logo-web:focus {
     color: #404BBF;
 }
 .header-link{
@@ -180,9 +180,9 @@ a {
 
 .portfolio-title {
     color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -190,6 +190,13 @@ a {
 .portfolio-item {
     background-color: #FFFFFF;
 }
+.porfolio-name{
+line-height: 1.5;
+}
+.porfolio-position{
+    letter-spacing: 0.02em
+}
+
 /*   < !-- section Footer -->*/
 
 .footer-section {
