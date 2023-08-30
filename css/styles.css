@@ -179,22 +179,26 @@ a {
 }
 
 .portfolio-title {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
+        color: #2E2F42;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-item {
     background-color: #FFFFFF;
 }
-.porfolio-name{
-line-height: 1.5;
+.portfolio-name{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .porfolio-position{
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /*   < !-- section Footer -->*/
