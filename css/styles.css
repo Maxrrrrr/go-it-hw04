@@ -6,7 +6,7 @@ body {
         color: #434455;
         font-weight: 400;
         font-size: 16px;
-        display: block;
+
         margin: 8px;
 }
 ul{
@@ -47,6 +47,10 @@ a {
             letter-spacing: 0.54px;
             text-transform: uppercase;
 }
+.logo-Studio-link:hover,
+.logo-Studio-link:focus {
+    color: #404BBF;
+}
 .header-link{
     color: #2E2F42;
     font-size: 16px;
@@ -58,13 +62,13 @@ a {
     font-style: normal;
 }
 .contacts-link {
-        color: #2E2F42;
+        color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-.adress-link:hover,
-.adress-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404BBF;
 }
 
@@ -159,8 +163,6 @@ a {
     letter-spacing: 0.02em;
 }
 .portfolio-Row1 {
-    margin-top: 72px;
-
     justify-content: center;
 
 }
@@ -169,7 +171,6 @@ a {
 
 .portfolio-Row2 {
     justify-content: center;
-    margin-bottom: 120px;
 }
 .portfolio-section {
     margin-left: auto;
@@ -178,16 +179,12 @@ a {
 }
 
 .portfolio-title {
-    color: var #2E2F42;
-    text-align: center;
+    color: #2E2F42;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    margin-top: 0;
-    margin-bottom: 72px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio-item {
@@ -212,7 +209,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    max-width: 264px;
+
 }
 .logo-footer {
     color: #F4F4FD;
