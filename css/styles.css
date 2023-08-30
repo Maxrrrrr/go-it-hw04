@@ -162,16 +162,11 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.portfolio-Row1 {
-    justify-content: center;
 
-}
 
     /* section Our Porfolio*/
 
-.portfolio-Row2 {
-    justify-content: center;
-}
+
 .portfolio-section {
     margin-left: auto;
     margin-right: auto;
@@ -184,6 +179,7 @@ a {
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 
 .portfolio-item {
@@ -196,7 +192,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.porfolio-position{
+.portfolio-position{
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
