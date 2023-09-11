@@ -47,8 +47,8 @@ a {
             letter-spacing: 0.54px;
             text-transform: uppercase;
 }
-.logo-Studio-link:hover,
-.logo-Studio-link:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404BBF;
 }
 .header-link{
