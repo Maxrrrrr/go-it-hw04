@@ -206,6 +206,8 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
+    margin-right: auto; 
+    margin-left: auto;
 }
 .team-list
  {
