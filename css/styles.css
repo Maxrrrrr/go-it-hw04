@@ -39,8 +39,7 @@ body {
         background-color: #fff;
         font-family: 'Roboto', sans-serif;
         color: #434455;
-        font-weight: 400;
-        font-size: 16px;
+
 }
 ul{
     list-style: none;
@@ -93,16 +92,23 @@ a {
     color: #404BBF;
 }
 .header-link{
-    color: #2E2F42;
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: block;
 }
 .address {
     font-style: normal;
 }
-.contacts-link {
+.address-list {
+    gap: 40px;
+    list-style-type: none;
+    display: flex;
+  }
+.address-link {
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
@@ -117,24 +123,34 @@ a {
 
 .hero-section {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .hero-title {
-        text-align: center;
-        color: #FFF;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
 }
 .hero-btn {
-    font-family: "Roboto", sans-serif;
-    cursor: pointer;
-    color: #FFF;
+    color: #fff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .hero-btn:hover,
 .hero-btn:focus {
