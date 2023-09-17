@@ -84,7 +84,7 @@ a {
     text-transform: uppercase;
     display: inline-block;
     margin-right: 76px;
-
+    position: relative;
 }
 .logo-Studio-link{
             color: #2E2F42;
