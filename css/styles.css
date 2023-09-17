@@ -136,6 +136,7 @@ a {
 .hero-section {
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: url(./images/office.jpg);
 }
 .hero-title {
     color: #fff;
@@ -148,6 +149,7 @@ a {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;
+
 }
 .hero-btn {
     color: #fff;
