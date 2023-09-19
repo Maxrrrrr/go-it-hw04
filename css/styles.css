@@ -220,7 +220,17 @@ body {
 .privilege-section{
     padding: 120px 0;
 }
-.advantages-item-icon {
+.privilege-list-item {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px; 
+    margin-bottom: 8px;
+  }
+
+.privilege-item-icon {
     width: 264px;
     height: 112px;
     flex-shrink: 0;
