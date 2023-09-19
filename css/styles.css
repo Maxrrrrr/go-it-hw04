@@ -220,6 +220,14 @@ body {
 .privilege-section{
     padding: 120px 0;
 }
+.advantages-item-icon {
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background: #f4f4fd;
+  }
 .privilege-title {
     color: #2E2F42;
     font-size: 20px;
