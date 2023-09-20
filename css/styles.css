@@ -318,7 +318,42 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-
+.teamm-icon {
+    fill: #f4f4fd;
+  }
+  
+  .teamm-list {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 24px;
+  }
+  
+  .team-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+  }
+  
+  .team-list-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  
+  .team-list-link:hover,
+  .team-list-link:focus {
+  background-color: #404bbf; 
+  }
 
     /* section Our Porfolio*/
 
