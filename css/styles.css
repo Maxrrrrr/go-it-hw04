@@ -412,6 +412,11 @@ padding: 120px 0;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
 }
+.portfolio-photo-wrapper {
+    position: relative;
+    overflow: hidden;
+    
+  }
 .portfolio-position{
     position: absolute;
     top: 0;
