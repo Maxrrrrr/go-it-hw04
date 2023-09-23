@@ -401,7 +401,7 @@ padding: 120px 0;
     padding: 40px 32px;
   }
   .third-section-list-item:hover .third-section-text-overlay {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 .portfolio-name{
     color: #2e2f42;
