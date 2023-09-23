@@ -400,7 +400,7 @@ padding: 120px 0;
     letter-spacing: 0.32px;
     padding: 40px 32px;
   }
-  .section-list-item:hover .section-text-overlay {
+.section-text-overlay:hover {
     transform: translateY(0%);
   }
 .portfolio-name{
