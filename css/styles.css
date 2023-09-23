@@ -399,7 +399,7 @@ padding: 120px 0;
     color: #f4f4fd;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     padding: 40px 32px;
   }
 .portfolio-item:hover .section-text-overlay
@@ -431,7 +431,7 @@ padding: 120px 0;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+ letter-spacing: 0.02em;
   text-transform: uppercase;
   margin-bottom: 16px;
   display: inline-block;
@@ -480,11 +480,10 @@ padding: 120px 0;
     margin-bottom: 16px;
       }
 .footer-container {
-        display: flex;
-        column-gap: 120px;
-        align-items: baseline;
+    display: flex;
+    align-items: baseline;
     }
-.footer-logo-wrapper {
+.footer-wrapper {
         margin-right: 120px;
         
 }
