@@ -401,10 +401,10 @@ padding: 120px 0;
     padding: 40px 32px;
   }
 .section-list-item:hover{
-    transform: translateX(0);
+    transform: translateY(0);
 }
 .section-text-overlay:hover {
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 .portfolio-name{
     color: #2e2f42;
