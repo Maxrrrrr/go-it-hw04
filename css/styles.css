@@ -400,9 +400,11 @@ padding: 120px 0;
     letter-spacing: 0.32px;
     padding: 40px 32px;
   }
-.section-list-item:hover,
-.section-text-overlay:hover {
+.section-list-item:hover{
     transform: translateX(0);
+}
+.section-text-overlay:hover {
+    transform: translateY(0%);
   }
 .portfolio-name{
     color: #2e2f42;
