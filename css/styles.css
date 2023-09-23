@@ -384,7 +384,7 @@ padding: 120px 0;
     position: relative;
     overflow: hidden;
   }
-  .third-section-text-overlay {
+.section-text-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -399,7 +399,7 @@ padding: 120px 0;
     letter-spacing: 0.32px;
     padding: 40px 32px;
   }
-  .third-section-list-item:hover .third-section-text-overlay {
+.section-list-item:hover .third-section-text-overlay {
     transform: translateX(0);
   }
 .portfolio-name{
