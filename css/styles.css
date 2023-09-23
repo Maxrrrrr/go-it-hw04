@@ -404,7 +404,7 @@ padding: 120px 0;
     transform: translateX(0);
 }
 .section-text-overlay:hover {
-    transform: translateY(0%);
+    transform: translateY(0);
   }
 .portfolio-name{
     color: #2e2f42;
